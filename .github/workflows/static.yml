@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata Saya</title>
+</head>
+<body>
+    <h1>Lalu Candra Adinito</h1>
+
+    <!-- Foto -->
+    <img src="adi.jpg" alt="Foto Profil" width="360">
+
+    <!-- Kontak -->
+    <p>
+        Email: <a href="proscandra7@gmail.com">proscandra7@gmail.com</a><br>
+        Phone: 081775251596<br>
+        GitHub: <a href="[Link GitHub]">[candra-100byte]</a>
+    </p>
+
+    <!-- Form Hubungi Saya -->
+    <h2>Hubungi Saya</h2>
+    <form action="[URL Endpoint Form]" method="POST">
+        <label>Nama:</label><br>
+        <input type="text" name="nama"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Pesan:</label><br>
+        <textarea name="pesan" rows="4"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
